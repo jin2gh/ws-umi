@@ -1,0 +1,29 @@
+{
+  "name": "rc-wap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "umi dev",
+    "dev:mock": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ahooks": "^3.8.1",
+    "antd-mobile": "^5.38.1",
+    "classnames": "^2.5.1",
+    "omggif": "^1.0.10"
+  },
+  "devDependencies": {
+    "@types/omggif": "^1.0.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}

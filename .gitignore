@@ -1,10 +1,13 @@
 /node_modules
+/*/*/node_modules
+/packages/**/.umi
 /.env.local
 /.umirc.local.ts
 /config/config.local.ts
-/src/.umi
-/src/.umi-production
-/src/.umi-test
+**/src/.umi
+**/src/.umi-production
+**/src/.umi-test
 /dist
 .swc
 /src/*/test/*
+.turbo

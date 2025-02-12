@@ -15,6 +15,7 @@ export default function Index () {
       loadGif('https://img.soogif.com/0ebEmyQqYYkDiFhMlJgsLpU9LRX6SxAw.gif')
     }
   }, [canvasRef.current])
+  
   return (
     <canvas ref={canvasRef}></canvas>
   )

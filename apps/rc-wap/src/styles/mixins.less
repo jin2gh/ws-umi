@@ -1,0 +1,5 @@
+.safeArea(@bottom) {
+  padding-bottom: @bottom;
+  padding-bottom: calc(constant(safe-area-inset-bottom) + @bottom);
+  padding-bottom: calc(env(safe-area-inset-bottom) + @bottom);
+}
